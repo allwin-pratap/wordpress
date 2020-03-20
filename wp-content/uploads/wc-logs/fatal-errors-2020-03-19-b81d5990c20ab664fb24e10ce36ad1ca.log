@@ -1,0 +1,120 @@
+2020-03-19T09:38:33+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php:90
+Stack trace:
+#0 /var/www/html/miini/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /var/www/html/miini/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /var/www/html/miini/wp-includes/template-loader.php(98): include('/var/www/html/m...')
+#3 /var/www/html/miini/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#4 /var/www/html/miini/index.php(17): require('/var/www/html/m...')
+#5 {main}
+  thrown in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php on line 90
+
+2020-03-19T09:39:47+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php:90
+Stack trace:
+#0 /var/www/html/miini/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /var/www/html/miini/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /var/www/html/miini/wp-includes/template-loader.php(98): include('/var/www/html/m...')
+#3 /var/www/html/miini/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#4 /var/www/html/miini/index.php(17): require('/var/www/html/m...')
+#5 {main}
+  thrown in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php on line 90
+
+2020-03-19T09:48:14+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on boolean in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php:111
+Stack trace:
+#0 /var/www/html/miini/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /var/www/html/miini/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /var/www/html/miini/wp-includes/template-loader.php(98): include('/var/www/html/m...')
+#3 /var/www/html/miini/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#4 /var/www/html/miini/index.php(17): require('/var/www/html/m...')
+#5 {main}
+  thrown in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php on line 111
+
+2020-03-19T10:54:05+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on boolean in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php:102
+Stack trace:
+#0 /var/www/html/miini/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /var/www/html/miini/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /var/www/html/miini/wp-includes/template-loader.php(98): include('/var/www/html/m...')
+#3 /var/www/html/miini/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#4 /var/www/html/miini/index.php(17): require('/var/www/html/m...')
+#5 {main}
+  thrown in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php on line 102
+
+2020-03-19T12:02:59+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on boolean in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php:92
+Stack trace:
+#0 /var/www/html/miini/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /var/www/html/miini/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /var/www/html/miini/wp-includes/template-loader.php(98): include('/var/www/html/m...')
+#3 /var/www/html/miini/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#4 /var/www/html/miini/index.php(17): require('/var/www/html/m...')
+#5 {main}
+  thrown in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php on line 92
+
+2020-03-19T12:03:07+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on boolean in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php:92
+Stack trace:
+#0 /var/www/html/miini/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /var/www/html/miini/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /var/www/html/miini/wp-includes/template-loader.php(98): include('/var/www/html/m...')
+#3 /var/www/html/miini/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#4 /var/www/html/miini/index.php(17): require('/var/www/html/m...')
+#5 {main}
+  thrown in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php on line 92
+
+2020-03-19T12:04:00+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on boolean in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php:93
+Stack trace:
+#0 /var/www/html/miini/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /var/www/html/miini/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /var/www/html/miini/wp-includes/template-loader.php(98): include('/var/www/html/m...')
+#3 /var/www/html/miini/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#4 /var/www/html/miini/index.php(17): require('/var/www/html/m...')
+#5 {main}
+  thrown in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php on line 93
+
+2020-03-19T12:04:31+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on boolean in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php:93
+Stack trace:
+#0 /var/www/html/miini/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /var/www/html/miini/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /var/www/html/miini/wp-includes/template-loader.php(98): include('/var/www/html/m...')
+#3 /var/www/html/miini/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#4 /var/www/html/miini/index.php(17): require('/var/www/html/m...')
+#5 {main}
+  thrown in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php on line 93
+
+2020-03-19T12:04:35+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on boolean in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php:93
+Stack trace:
+#0 /var/www/html/miini/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /var/www/html/miini/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /var/www/html/miini/wp-includes/template-loader.php(98): include('/var/www/html/m...')
+#3 /var/www/html/miini/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#4 /var/www/html/miini/index.php(17): require('/var/www/html/m...')
+#5 {main}
+  thrown in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php on line 93
+
+2020-03-19T12:05:54+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on null in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php:93
+Stack trace:
+#0 /var/www/html/miini/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /var/www/html/miini/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /var/www/html/miini/wp-includes/template-loader.php(98): include('/var/www/html/m...')
+#3 /var/www/html/miini/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#4 /var/www/html/miini/index.php(17): require('/var/www/html/m...')
+#5 {main}
+  thrown in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php on line 93
+
+2020-03-19T12:06:14+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on null in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php:94
+Stack trace:
+#0 /var/www/html/miini/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /var/www/html/miini/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /var/www/html/miini/wp-includes/template-loader.php(98): include('/var/www/html/m...')
+#3 /var/www/html/miini/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#4 /var/www/html/miini/index.php(17): require('/var/www/html/m...')
+#5 {main}
+  thrown in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php on line 94
+
+2020-03-19T12:06:35+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on null in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php:95
+Stack trace:
+#0 /var/www/html/miini/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /var/www/html/miini/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /var/www/html/miini/wp-includes/template-loader.php(98): include('/var/www/html/m...')
+#3 /var/www/html/miini/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#4 /var/www/html/miini/index.php(17): require('/var/www/html/m...')
+#5 {main}
+  thrown in /var/www/html/miini/wp-content/themes/twentytwenty-child/woocommerce/archive-product.php on line 95
+

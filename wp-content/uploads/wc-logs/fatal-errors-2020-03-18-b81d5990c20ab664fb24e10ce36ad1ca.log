@@ -1,0 +1,2 @@
+2020-03-18T10:23:11+00:00 CRITICAL syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /var/www/html/miini/wp-content/themes/twentytwenty-child/shops.php on line 78
+

@@ -1,0 +1,383 @@
+/*
+ Theme Name:   Twenty twenty Child
+ Theme URI:    http://example.com/twenty-twenty-child/
+ Description:  Twenty twenty Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     twentytwenty
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentytwentychild
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+1.      Overall body 
+2.      Common Design
+3. 	Header section
+4. 	Footer section
+
+10. 	Media Queries for Responsive
+
+----------------------------------------------------------------------------- */
+/*----------------------------------------------------------------------------*/
+/*1.    Overall body
+/*----------------------------------------------------------------------------*/
+body {
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    color: #666666;
+}
+.head-foot-container {
+    margin: 0px auto;
+    width: 84.5%;
+}
+.main-container {
+    margin: 0px auto;
+    width: 84.5%;
+}
+/*----------------------------------------------------------------------------*/
+/*2.    Common Design
+/*----------------------------------------------------------------------------*/
+h4,
+h5 {
+    letter-spacing: normal;
+}
+h6 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #222222;
+}
+.green-color,
+a.footer-hover:hover,
+a.icon-link-footer:hover,
+h6.page-title.text-lowercase:hover,
+li.menu-item-type-custom.menu-item-object-custom a:hover{
+    color: #3e976c;
+    text-decoration: none;
+}
+.latest-news img.d-block.img-cover,
+.slides img.d-block.img-cover {
+    width: 100%;
+}
+/*----------------------------------------------------------------------------*/
+/*3. Header section
+/*----------------------------------------------------------------------------*/
+li.menu-item,
+li.header-right-icon-list {
+    display: inline-block;
+}
+li.menu-item {
+    font-size: 14px;
+    font-weight: 600;
+}
+li.header-right-icon-list {
+    font-size: 20px;
+}
+ul#menu-primary,
+ul.menu-primary-right-icon.text-right {
+    margin: 20px 0px;
+}
+.row.header-top {
+    border-bottom: 1px solid grey;
+}
+.current-menu-item a {
+    color: #3c3c3c !important;
+}
+#menu-primary a,
+ul#menu-primary-1 a,
+.menu-primary-right-icon a {
+    color: #3c3c3c !important;
+}
+#menu-primary a:hover,
+ul#menu-primary-1 a:hover,
+.menu-primary-right-icon a:hover {
+    color: #3e976c !important;
+}
+ul#menu-primary-1 {
+    text-align: center;
+}
+input.search-field {
+    height: 37px;
+    border-radius: 30px;
+    background-color: #f3f3f3;
+}
+.menu-primary-bottom-right-icon {
+    margin-top: 0 !important;
+}
+button.btn.btn-color.btn-hover {
+    background-color: transparent;
+    color: #3e976c;
+    font-size: 20px;
+    position: absolute;
+    left: 84%;
+}
+.miini-logo img.custom-logo {
+    margin-left: 47%;
+}
+.row.header-bottom {
+    margin-top: 50px;
+}
+a.cart-contents {
+    background-color: #3e976c;
+    color: white !important;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0px 3px;
+    border-radius: 16px;
+    margin-left: -7px;
+}
+header#site-header {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+header#header-scroll-hide {
+    margin-top: 130px;
+}
+/*----------------------------------------------------------------------------*/
+/*4. Footer section
+/*----------------------------------------------------------------------------*/
+footer#site-footers,
+a.footer-hover,
+li.menu-item-type-custom.menu-item-object-custom a {
+    color: #666666;
+}
+.copyrights,
+p.footer-right-content {
+    font-size: 14px;
+}
+
+ul.footer-right-link,
+p.footer-left-content,
+li.widget.widget_nav_menu,
+ul.ul-icon {
+    list-style-type: none;
+    font-size: 14px;
+}
+p.footer-left-content{
+    margin-top: 38px;
+}
+li.list-item,
+li.list-footer-icon {
+    display: inline-block;
+}
+a.footer-hover {
+    text-decoration: none;
+}
+.row.footer-bottom {
+    margin-top: 27px;
+}
+img.custom-logo,
+li.widget.widget_nav_menu,
+ul.ul-icon,
+li.list-footer-icon:first-child {
+    margin-left: 0;
+}
+a.icon-link-footer {
+    background-color: #f3f3f3;
+    color: #666;
+    padding: 2px 6px 3px;
+    border-radius: 14px;
+}
+li.list-footer-icon {
+    margin-left: 6px;
+}
+li.menu-item-type-custom.menu-item-object-custom a{
+    font-weight: 400;
+    line-height: 35px;
+}
+h6.footer-title.text-capitalize {
+    margin-top: 0;
+}
+h6.footer-title.footer-title-help {
+    margin-bottom: 5px;
+}
+h6.footer-title.footer-title-newsletter {
+    margin-bottom: 30px;
+}
+.widget_nav_menu ul {
+    display: grid;
+}
+
+/*----------------------------------------------------------------------------*/
+/*5. Main section
+/*----------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------*/
+/*5.a.  Slider Design
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*5.b.  Popular Products
+/*----------------------------------------------------------------------------*/
+a.product-link {
+    background-color: #bdefd7;
+    color: #3c3c3c;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 8px 23px;
+    border-radius: 20px;
+}
+p.text-center.product-title:hover {
+    color: #3e976c;
+}
+p.text-center.product-title {
+    font-size: 14px;
+    color: #666;
+}
+p.text-center.product-price {
+    font-weight: 700;
+    font-size: 14px;
+    color: #222;
+}
+/*----------------------------------------------------------------------------*/
+/*5.c.  Testimonials
+/*----------------------------------------------------------------------------*/
+.testimonial-slides img.d-block.img-cover {
+    position: absolute;
+    left: 47%;
+    top: 122%;
+}
+.testimonial-slides ol.carousel-indicators {
+    color: #3c3c3c;
+}
+.carousel-indicators .active {
+    background-color: #3e976c;
+}
+.testimonial-slides .carousel-captions {
+    text-align: center;
+    margin: 0% 30% 16%;
+    color: #999999;
+    font-weight: 300;
+}
+.carousel-indicators li {
+    padding: 14px 0px;
+    border-radius: 50px; 
+    background-color: #ddffef;
+}
+/*----------------------------------------------------------------------------*/
+/*5.d.  Latest News
+/*----------------------------------------------------------------------------*/
+.latest-news-bg {
+    background-image: url("./assets/img/bg-t.png");
+}
+.latest-news p {
+    font-size: 14px;
+    color: #666666;
+}
+h6.page-title.text-lowercase {
+    font-weight: 500;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+}
+/*----------------------------------------------------------------------------*/
+/*8. Contact page
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*9.    Shop page Design
+/*----------------------------------------------------------------------------*/
+ul.list-link {
+    list-style-type: none;
+}
+a.text-light {
+    color: #6d6666 !important;
+}
+span.color {
+    padding: 0px 12px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+span.color.color-red {
+    background-color: red;
+}
+span.color.color-white {
+    background-color: white;
+}
+span.color.color-black {
+    background-color: black;
+}
+span.color.color-blue {
+    background-color: blue;
+}
+li.color-list {
+    display: inline-block;
+}
+ul.list-link,
+li.color-list {
+    margin-left: 0;
+}
+button#btn-find,
+button.btn-search,
+a.button.wc-forward,
+a.button.add_to_cart_button.product_type_simple {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    padding: 13px;
+    border-radius: 11px;
+    text-decoration: none;
+}
+button.btn-search {
+    padding: 4px 8px;
+}
+a.button.add_to_cart_button.product_type_simple {
+    padding: 8px 10px;
+    border-radius: 20px;
+}
+button#btn-find:hover,
+button.btn-search:hover,
+a.button.wc-forward:hover,
+a.button.add_to_cart_button.product_type_simple:hover {
+    background-color: black !important;
+    text-decoration: none !important;
+}
+a.product-image {
+    position: relative;
+}
+.text-center.position-absolute.add-cart-link {
+    position: absolute;
+    top: 66%;
+    left: 44%;
+}
+select.sorting-select {
+    background-color: rgba(0, 0, 0, 0.12);
+    border-radius: 7px;
+}
+.post-meta-wrapper.post-meta-edit-link-wrapper,
+.entry-header-inner.section-inner.medium {
+    display: none;
+}
+.post-inner {
+    padding: 0;
+}
+p.text-center.product-title.archive-product {
+    font-size: 17px;
+    margin: 7px 0px 0px;
+}
+.section-inner {
+    width: 100%;
+}
+.woocommerce-breadcrumb {
+    margin: 50px 0px 0px;
+}
+/*----------------------------------------------------------------------------*/
+/*10.    Media Queries for Responsive
+/*----------------------------------------------------------------------------*/
+@media only screen and (min-width: 576px) {
+    
+}
+@media only screen and (min-width: 768px) {
+    
+}
+@media only screen and (min-width: 992px) {
+    
+}
+@media only screen and (min-width: 1200px) {
+    
+}
